@@ -2,9 +2,10 @@ PODS:
   - Alamofire (4.8.2)
   - DDFeedback (1.0.3):
     - RxDataSources (~> 4.0)
-  - DDPublic (0.1.0):
+  - DDPublic (0.1.3):
     - DDFeedback (~> 1.0)
     - Moya (~> 13.0)
+    - SwiftDate (~> 6.0)
   - Differentiator (4.0.1)
   - Moya (13.0.1):
     - Moya/Core (= 13.0.1)
@@ -22,10 +23,10 @@ PODS:
   - RxRelay (5.0.0):
     - RxSwift (~> 5)
   - RxSwift (5.0.0)
+  - SwiftDate (6.0.3)
 
 DEPENDENCIES:
   - DDPublic (from `../`)
-  - Moya
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -38,6 +39,7 @@ SPEC REPOS:
     - RxDataSources
     - RxRelay
     - RxSwift
+    - SwiftDate
 
 EXTERNAL SOURCES:
   DDPublic:
@@ -46,7 +48,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   DDFeedback: ff7822ff3905c86a4567bf272240c10759e90155
-  DDPublic: 78cd6869bce8801c65b120e9ef50e1463d3fab7c
+  DDPublic: e97686aa79223ab3c2b3a99314a86bddddd1a3fb
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
@@ -54,7 +56,8 @@ SPEC CHECKSUMS:
   RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
   RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  SwiftDate: 8d4f14bf1ef68e95094511504856547bf9e3e1a6
 
-PODFILE CHECKSUM: 7772c23e1c6393d6f95253afc30f755926e8ff55
+PODFILE CHECKSUM: 1726b681b7a0abc9f57eadd3dc3ed3e81ec0e288
 
 COCOAPODS: 1.7.2

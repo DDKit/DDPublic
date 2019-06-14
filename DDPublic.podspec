@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DDPublic'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'DDPublic 项目基础代码'
 
   s.description      = <<-DESC
@@ -37,6 +37,7 @@ DDPublic 项目基础代码
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'DDFeedback', '~> 1.0'
   s.dependency 'Moya', '~> 13.0'
+  s.dependency 'SwiftDate', '~>6.0'
 
   
 end
