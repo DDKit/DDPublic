@@ -20,5 +20,13 @@
   },
   "source_files": "DDPublic/Classes/**/*",
   "swift_versions": "4.2",
+  "dependencies": {
+    "DDFeedback": [
+      "~> 1.0"
+    ],
+    "Moya": [
+      "~> 13.0"
+    ]
+  },
   "swift_version": "4.2"
 }

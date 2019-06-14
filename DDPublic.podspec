@@ -26,7 +26,7 @@ DDPublic 项目基础代码
 
   s.ios.deployment_target = '9.0'
   s.source_files = 'DDPublic/Classes/**/*'
-   s.swift_version = '4.2'
+  s.swift_version = '4.2'
    
   # s.resource_bundles = {
   #   'DDPublic' => ['DDPublic/Assets/*.png']
@@ -35,4 +35,8 @@ DDPublic 项目基础代码
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'DDFeedback', '~> 1.0'
+  s.dependency 'Moya', '~> 13.0'
+
+  
 end

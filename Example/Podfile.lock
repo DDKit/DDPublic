@@ -1,9 +1,11 @@
 PODS:
   - Alamofire (4.8.2)
-  - DDFeedback (1.0.0):
-    - RxCocoa (~> 5.0)
-    - RxSwift (~> 5.0)
-  - DDPublic (0.1.0)
+  - DDFeedback (1.0.3):
+    - RxDataSources (~> 4.0)
+  - DDPublic (0.1.0):
+    - DDFeedback (~> 1.0)
+    - Moya (~> 13.0)
+  - Differentiator (4.0.1)
   - Moya (13.0.1):
     - Moya/Core (= 13.0.1)
   - Moya/Core (13.0.1):
@@ -13,12 +15,15 @@ PODS:
   - RxCocoa (5.0.0):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
   - RxRelay (5.0.0):
     - RxSwift (~> 5)
   - RxSwift (5.0.0)
 
 DEPENDENCIES:
-  - DDFeedback
   - DDPublic (from `../`)
   - Moya
 
@@ -26,9 +31,11 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - DDFeedback
+    - Differentiator
     - Moya
     - Result
     - RxCocoa
+    - RxDataSources
     - RxRelay
     - RxSwift
 
@@ -38,14 +45,16 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
-  DDFeedback: 0efe3a3381932d79388c3e78a9756c7647c01757
-  DDPublic: efbbb7ed68c101f8838a78d969227f0aba377dfa
+  DDFeedback: ff7822ff3905c86a4567bf272240c10759e90155
+  DDPublic: 78cd6869bce8801c65b120e9ef50e1463d3fab7c
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
   RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
 
-PODFILE CHECKSUM: 5ad8237b7fd6608ea7bf5b22721e74b92f4c43b0
+PODFILE CHECKSUM: 7772c23e1c6393d6f95253afc30f755926e8ff55
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.7.2
