@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DDPublic'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'DDPublic 项目基础代码'
 
   s.description      = <<-DESC

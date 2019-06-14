@@ -13,7 +13,7 @@ import ObjectiveC
 
 public extension Reactive where Base: UIView {
     
-    public func toast() -> Binder<String> {
+    func toast() -> Binder<String> {
         return Binder(base) { view, message in
             view.makeToast(message)
         }
