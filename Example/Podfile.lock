@@ -1,16 +1,51 @@
 PODS:
+  - Alamofire (4.8.2)
+  - DDFeedback (1.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
   - DDPublic (0.1.0)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Result (4.1.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
 
 DEPENDENCIES:
+  - DDFeedback
   - DDPublic (from `../`)
+  - Moya
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DDFeedback
+    - Moya
+    - Result
+    - RxCocoa
+    - RxRelay
+    - RxSwift
 
 EXTERNAL SOURCES:
   DDPublic:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DDPublic: 757927cba4301e8405d7b70c109a64a72aaa78f1
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  DDFeedback: 0efe3a3381932d79388c3e78a9756c7647c01757
+  DDPublic: efbbb7ed68c101f8838a78d969227f0aba377dfa
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
 
-PODFILE CHECKSUM: 9e0931b96626a3ea79ba1079070f8593d5843782
+PODFILE CHECKSUM: 5ad8237b7fd6608ea7bf5b22721e74b92f4c43b0
 
 COCOAPODS: 1.7.1

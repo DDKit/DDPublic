@@ -1,5 +1,4 @@
 import XCTest
-import DDPublic
 
 class Tests: XCTestCase {
     
