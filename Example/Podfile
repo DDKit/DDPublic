@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DDPublic_Example' do
+  pod 'DDPublic', :path => '../'
+
+  target 'DDPublic_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

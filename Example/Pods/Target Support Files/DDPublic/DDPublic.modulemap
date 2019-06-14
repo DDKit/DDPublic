@@ -1,0 +1,6 @@
+framework module DDPublic {
+  umbrella header "DDPublic-umbrella.h"
+
+  export *
+  module * { export * }
+}
