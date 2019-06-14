@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import DDPublic
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        DefaultWireframe.shared.open(url: URL(string: "")!)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
