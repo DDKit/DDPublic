@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DDPublic'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'DDPublic 项目基础代码'
 
   s.description      = <<-DESC
@@ -26,7 +26,7 @@ DDPublic 项目基础代码
 
   s.ios.deployment_target = '9.0'
   s.source_files = 'DDPublic/Classes/**/*'
-  s.swift_version = '4.2'
+  s.swift_version = '5'
    
   # s.resource_bundles = {
   #   'DDPublic' => ['DDPublic/Assets/*.png']
