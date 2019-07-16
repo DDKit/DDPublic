@@ -13,7 +13,11 @@ public struct Navigator {
     
     public let bag = DisposeBag()
     
-    weak var viewController: UIViewController?
+    public weak var viewController: UIViewController?
+    
+    public init(_ viewController: UIViewController) {
+        self.viewController = viewController
+    }
     
     @discardableResult
     public func show<VC:UIViewController>(
@@ -34,7 +38,7 @@ public struct Navigator {
     }
     
     @discardableResult
-    func present<VC: UIViewController>(
+    public func present<VC: UIViewController>(
         _ type: VC.Type ,
         storyboardName: String? = "\(VC.self)",
         identifier: String = "\(VC.self)",
